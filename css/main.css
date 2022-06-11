@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-sect-item ul li{
+    padding: 12px;
+}
+
+.nav-sect-item ul li:hover{
+    background-color: #2727F8;
+    color: #FFF4F4;
+    zoom: 1;
+}
+
+.header-sect{
+    width: 100%;
+    height: auto;
+    padding: 2em 0;
+}
+
+.header-sect img{
+    width: 100%;
+    height: 50vh;
+}
+
+.features{
+    height: auto;
+    margin-bottom: 3em;
+}
+
+.featureH1{
+    margin: 2em 0;
+}
+
+.features .card{
+    border:  none;
+}
+
+.features .card .card-body{
+    padding: 10px 0;
+}
+
+
+.features .card img{
+    border: 2px solid #70C5F9;
+}
+
+
+.features h5{
+    font-size: 15px;
+}
+
+.feat-card {
+    margin-right: 3px;
+}
+
+.about-sect{
+    background-color: #2AB3E1;
+    height: auto;
+    padding-bottom: 3em;
+}
+
+.aboutH{
+    padding: 2em 0;
+    color: #F9E9E9;
+}
+
+.aboutflex{
+    background-color: #ffffff;
+    height: auto;
+    padding: 2em 1em;
+}
+.aboutflex img{
+    width: 90%;
+    height: 75vh;
+}
+
+.aboutflex p{
+    font-size: 16px;
+}
+
+.aboutflex a{
+    color: #fff;
+}
+
+.customers, .contacts{
+    height: auto;
+    padding: 2em 0 4em 0;
+}
+
+.customerH, .contactH{
+    padding: 1.5em 0;
+}
+
+.contacts .card img{
+    width: 20%;
+}
+
+.contacts{
+    background-color: #E8DFDF;
+}
+
+.contacts .contact-content .card{
+    border: none;
+}
+
+.foot-top{
+    height: auto;
+    padding: 1em 0;
+    background-color: #898383;
+    color: #fff;
+}
+
+.foot-bot{
+    color: #fff;
+    height: auto;
+    padding: 2em 0;
+    background-color: #02625D;
+}
+
+/*for mobile devices*/
+@media (max-width: 480px){
+    .header-sect img {
+        height: 20vh;
+    }
+
+    .features .card .card-body h5 {
+        font-size: 10px;
+    }
+
+    .header-sect img {
+        height: 37vh;
+    }
+}
